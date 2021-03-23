@@ -1,0 +1,110 @@
+.data {
+  color: #fff;
+  background: #fff;
+
+  &__form {
+    @media (max-width:1100px) {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__inner {
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width:1100px) {
+      flex-direction: column;
+    }
+  }
+}
+
+.basement {
+  background: #008aff;
+  border-top-right-radius: 150px;
+  
+  @media (max-width:1100px) {
+    text-align: center;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+
+  @media (max-width:1100px) {
+    width: 100%;
+    
+  }
+
+  &__inp {
+    border: none;
+    margin: 20px 0;
+    background: #008aff;
+    font-family: $mainFontFamily;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #fff;
+    border-bottom: 2px solid;
+  }
+
+  &__inp::placeholder {
+    color: #fff;
+  }
+
+  &__button {
+    margin-top: 80px;
+
+    @media (max-width:1100px) {
+      margin: 80px auto 0;
+      
+    }
+  }
+}
+
+.contact {
+  &__name {
+    padding: 50px 0 20px;
+    font-family: $mainFontFamily;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.5;
+  }
+
+  &__icon {
+    padding-right: 20px;
+    transition: all 1s;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  &__data {
+    padding-top: 8px;
+    font-family: $secondaryFontFamily;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+    transition: all 0.5s;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}

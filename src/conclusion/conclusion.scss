@@ -1,0 +1,59 @@
+.conclusion {
+  background: #fff;
+  margin: 200px 0 0;
+
+  &__block {
+    margin: 0 auto;
+    padding: 200px 0;
+    width: 750px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width:768px) {
+      width: 350px;
+    }
+
+    @media (max-width:500px) {
+      width: 280px;
+    }
+  }
+
+  &__title {
+    font-family: $mainFontFamily;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 78px;
+
+    @media (max-width:768px) {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 60px;
+    }
+  }
+
+  &__text {
+    margin: 24px 0 64px;
+    font-family: $secondaryFontFamily;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+
+    @media (max-width:768px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+
+.button {
+  padding: 20px 0;
+  width: 264px;
+  font-family: $mainFontFamily;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  background: #ff9c8e;
+  border-radius: 64px;
+  color: #fff;
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: #f2f9ff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #253757;
+  position: relative;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+input {
+  font-family: $mainFontFamily;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 16px 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
